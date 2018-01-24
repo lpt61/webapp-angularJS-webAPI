@@ -4,7 +4,7 @@ About the project:
 - This project simulates an email client application with basic email operations: create, send, update (draft mails), delete.
 - This project uses AngularJS at client side, web API controllers and HMailServer API at server side.
 
-Setting up server (For who doesn't know)
+Setting up hMailServer:
 1. Restore the MS SQL database in the DB folder.
 2. Install hMailServer.
 3. Setup hMailServer administrator and remember the password, you will need it later. The 
