@@ -1,4 +1,3 @@
-# webapp-angularJS-webAPI
 
 About the project:
 - This project simulates an email client application with basic email operations: create, send, update (draft mails), delete.
