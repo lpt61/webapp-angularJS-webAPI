@@ -1,0 +1,68 @@
+﻿<!--7. Views-->
+<div data-ng-controller="ListController">
+    <!--Include the "partial view" -->
+    <div ng-controller="AccountController">
+        <ng-include src="'/Client/views/_usermenu.html'"></ng-include>
+    </div>
+
+    <h4>{{message}}</h4>
+
+    <div>
+        <table class="table table-bordered table-condensed table-striped table-responsive">
+            <tr>
+                <!--<th ng-hide="{{hide.from}}">From</th>-->
+                <th ng-hide="{{hide.from}}">From address</th>
+                <th ng-hide="{{hide.to}}">To</th>
+                <th>Subject</th>
+                <th ng-hide="{{hide.status}}">Status</th>
+                <th></th>
+                <!--<th>Date</th>-->
+            </tr>
+            <tr data-ng-repeat="mail in mails">
+                <!--<td ng-hide="{{hide.from}}">{{mail.From}}</td>-->
+                <td ng-hide="{{hide.from}}">{{mail.FromAddress}}</td>
+                <td ng-hide="{{hide.to}}">{{mail.To}}</td>
+                <td>{{mail.Subject}}</td>
+                <td ng-hide="{{hide.status}}">{{mail.Status}}</td>               
+                <!--<td>{{mail.Date}}</td>-->
+
+                <!--A link to the details view-->
+                <td class="btn-group">
+                    <a class="btn btn-default" href="#!/details/{{type}}/{{mail.ID}}">
+                        Details
+                    </a>                   
+                    <button id="deleteBtn" ng-hide="{{hide.deleteButton}}" class="btn btn-danger" data-ng-click="delete(mail.ID)" 
+                            style="border-top-right-radius: 4px !important;border-bottom-right-radius: 4px !important;">
+                        Delete
+                    </button>
+                    <button id="moveBtn" ng-hide="{{hide.removeButton}}" class="btn btn-danger" data-ng-click="moveToTrashBin(mail.ID)">
+                        Move to trash bin
+                    </button>
+                </td>
+
+
+
+                <!--A link to delete-->
+                <!--1.ng-click call delete() method on the model-->
+                <!--2.pass the current mail in the ng-repeat to that method-->
+            </tr>
+        </table>
+    </div>
+
+    <!--
+        - ng-include composes another view into the associated view
+		- the single quotes '' in the ng-include value tell Angular to treat that value as a string, not a expression
+    -->
+    <button class="btn btn-default" data-ng-click="create()">Create</button>
+    <div ng-include="'/Client/views/edit.html'">                <!--notice the single quotes here-->
+    </div>
+</div>
+
+<style type="text/css">
+    .btn-group{
+        border:none !important;
+    }
+    .btn-group button{
+        margin-top:0;
+    }
+</style>

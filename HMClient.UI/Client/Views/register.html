@@ -1,0 +1,30 @@
+﻿<!--7. Views-->
+<div data-ng-controller="AccountController">
+    <!--Include the "partial view" -->
+    <div ng-controller="AccountController">
+        <ng-include src="'/Client/views/_usermenu.html'"></ng-include>
+    </div>
+
+    <form>
+        <!--<label>{{message}}</label>-->
+        <fieldset>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" ng-model="register.account.Name" required class="form-control" />
+                
+                <label for="userName">User name</label>
+                <input id="userName" type="text" ng-model="register.account.UserName" required class="form-control" />
+                
+                <!--<label for="email">Email</label>
+                <input id="email" type="text" ng-model="register.account.Email" required class="form-control" />-->
+                
+                <label for="password">Password</label>
+                <input id="password" type="password" ng-model="register.account.Password" required class="form-control" />
+                
+                <label for="confirmPassword">Confirm password</label>
+                <input id="confirmPassword" type="password" ng-model="register.account.ConfirmPassword" required class="form-control" />
+            </div>
+            <button class="btn btn-default" ng-click="register()">Register</button>
+        </fieldset>
+    </form>
+</div>

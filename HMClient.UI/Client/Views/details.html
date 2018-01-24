@@ -1,0 +1,34 @@
+﻿<div data-ng-controller="DetailsController">
+    <!--Include the "partial view" -->
+    <div ng-controller="AccountController">
+        <ng-include src="'/Client/views/_usermenu.html'"></ng-include>
+    </div>
+
+    <div>
+        <label for="mailFrom">From:</label>
+        <p id="mailFrom">{{mail.From}}</p>
+        <p id="mailFromAddress">{{mail.FromAddress}}</p>
+        <label for="mailTo">To</label><p id="mailTo">{{mail.To}}</p>
+        <label for="date">Date received:</label>
+        <p id="date">{{mail.Date}}</p>
+
+        <h2 id="mailSubject">{{mail.Subject}}</h2>
+        <p id="mailBody" style="white-space:pre-wrap">{{mail.Body}}</p>
+    </div>
+    <button id="editBtn" class="btn btn-default" data-ng-click="edit()">Forward</button>
+    <div ng-include="'/Client/views/edit.html'"></div>
+</div>
+
+<!--
+    Function to popularize the edit.html view with data from this view
+    With the help of angular events, this function is now obsolete
+-->
+<!--<script type="text/javascript">
+    $(function () {
+        $('#editBtn').on('click', function () {
+            $('textarea#to').text($('p#mailTo').text());
+            $('input#subject').val($('h2#mailSubject').text());
+            $('textarea#body').text($('p#mailBody').text());
+        });        
+    })
+</script>-->

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMClient.Data", "HMClient.Data\HMClient.Data.csproj", "{D2127211-5674-4081-B146-194CC14B4950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMClient.UI", "HMClient.UI\HMClient.UI.csproj", "{95CC4311-D9F8-4119-A8F9-7A1618ABC630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMClient.UnitTests", "HMClient.UnitTests\HMClient.UnitTests.csproj", "{FF2488A0-836D-4888-BE01-5733F0B87A07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2127211-5674-4081-B146-194CC14B4950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2127211-5674-4081-B146-194CC14B4950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2127211-5674-4081-B146-194CC14B4950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2127211-5674-4081-B146-194CC14B4950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CC4311-D9F8-4119-A8F9-7A1618ABC630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CC4311-D9F8-4119-A8F9-7A1618ABC630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CC4311-D9F8-4119-A8F9-7A1618ABC630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CC4311-D9F8-4119-A8F9-7A1618ABC630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2488A0-836D-4888-BE01-5733F0B87A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2488A0-836D-4888-BE01-5733F0B87A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2488A0-836D-4888-BE01-5733F0B87A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2488A0-836D-4888-BE01-5733F0B87A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

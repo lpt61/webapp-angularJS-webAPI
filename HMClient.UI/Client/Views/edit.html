@@ -1,0 +1,71 @@
+﻿<!--
+    - ng-model directive:
+	    + sets up a two way data binding between the model and form elements
+	    + provides validation services and monitor the state (clean or dirty) of the underlying control.
+    - ng-show directive hides or shows a section of the DOM based on the expression you give it		
+-->
+
+<div ng-controller="EditController">
+    <!--Include the "partial view" -->
+    <!--<div ng-controller="AccountController">
+        <ng-include src="'/Client/views/_usermenu.html'"></ng-include>
+    </div>-->
+
+    <form class="edit" ng-show="isEditable()">       <!--show the form if isEditable() returns true-->
+        <fieldset>
+            <label for="To">To</label>
+            <p class="guide">
+                (Separate each address by a white space)
+            </p>
+            <!--Use ng-bind, ng-value to preset values for the html elements -->
+            <textarea ng-bind="edit.mail.To" id="to" type="text" ng-model="edit.mail.to" required class="form-control" style="height:34px;"></textarea>
+
+            <label for="Subject">Subject</label>
+            <input ng-value="edit.mail.Subject" id="subject" type="text" ng-model="edit.mail.subject" required class="form-control" />
+
+            <label for="Body">Body</label>
+            <textarea ng-bind="edit.mail.Body" id="body" type="text" ng-model="edit.mail.body" required class="form-control" style="height:200px;"></textarea>
+
+            <div class="saveButton">
+                <!--<button class="btn btn-default" ng-click="save()">Save as draft</button>-->
+                <button class="btn btn-default" ng-hide="{{hideUpdateButton}}" ng-click="updateMessage()">Update</button>
+                <button class="btn btn-default" ng-click="postMessage(false)">Send</button>
+                <button class="btn btn-default" ng-click="postMessage(true)">Save</button>
+                <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+            </div>
+        </fieldset>
+        <h4>{{edit.message}}</h4>
+    </form>
+</div>
+
+<style type="text/css">
+    .edit{
+        width: 40%;
+        background: white;
+        z-index: 9999;
+        border-left: 1px #999999 solid;
+        position: fixed;
+        top: 51px;
+        right: 0vw;
+        padding: 25px 0px 25px 50px;
+        height: 100%;
+    }
+
+    textarea,
+    input[type="text"]{
+        min-width:430px;
+        max-width: 430px;
+    }
+
+    input{
+        margin: 5px 5px 5px 0;
+    }
+    button{
+        margin: 10px 0 10px 0;
+    }
+
+    .guide{
+        font-size: 12px;
+        font-style: italic;
+    }
+</style>

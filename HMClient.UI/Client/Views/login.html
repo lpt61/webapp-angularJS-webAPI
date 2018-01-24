@@ -1,0 +1,19 @@
+﻿<!--7. Views-->
+<div data-ng-controller="AccountController">
+    <ng-include src="'/Client/views/_usermenu.html'"></ng-include>
+
+    <form>
+        <label>{{message}}</label>
+        <fieldset>
+            <div class="form-group">
+                <label for="usermame">User name</label>
+                <input id="username" type="text" ng-model="login.account.username" required class="form-control" />
+
+                <label for="password">Password</label>
+                <input id="password" type="password" ng-model="login.account.password" required class="form-control" />
+            </div>
+            <button class="btn btn-default" ng-click="login()">Login</button>
+            <a href="#!/register">Create a new account</a>
+</fieldset>
+    </form>
+</div>

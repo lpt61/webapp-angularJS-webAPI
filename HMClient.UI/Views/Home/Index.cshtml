@@ -1,0 +1,40 @@
+﻿<!--Load the module atTheMovies for the app-->
+@*<div data-ng-app="MyMail">
+        <!--Specify the controller to handle this section-->
+        <div data-ng-controller="ListController">
+            <!--Use a template {{}} with expression message to retrieve info from the model (step-3),
+                then display that info in the view-->
+            <h3>{{message}} : {{mails.length}} mail(s)</h3>
+            <table class="table table-bordered table-condensed">
+                <tr>
+                    <th>From</th>
+                    <th>Title</th>
+                    <th>To</th>
+                </tr>
+                <tr data-ng-repeat="mail in mails">
+                    <td>{{mail.FromId}}</td>
+                    <td>{{mail.Title}}</td>
+                    <td>{{mail.ToId}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>*@
+
+<!--8. To use specific views in folder Client, use ng-view to insert them to the Index view-->
+<div data-ng-app="MyMail">
+    <div ng-view></div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Client/Scripts/MyMail.js"></script>
+    <script src="~/Client/Scripts/ListController.js"></script>
+    <script src="~/Client/Scripts/DetailsController.js"></script>
+
+<script src="~/Client/Scripts/LayoutController.js"></script>
+
+    <script src="~/Client/Scripts/EditController.js"></script>
+    <script src="~/Client/Scripts/AccountController.js"></script>
+    <script src="~/Client/Scripts/services.js"></script>
+}

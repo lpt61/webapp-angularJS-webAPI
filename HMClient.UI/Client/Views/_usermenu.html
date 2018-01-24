@@ -1,0 +1,42 @@
+﻿<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav usermenu" data-ng-controller="AccountController">
+        <li ng-show={{showLogInRegister}}><a href="#!/login">Login</a></li>
+        <li ng-show={{showLogInRegister}}><a href="#!/register">Register</a></li>
+        <li ng-show={{showNameLogout}}>
+            <a href="#!/login.html" ng-click="logout()">Logout</a>
+        </li>
+        <li ng-show={{showNameLogout}}>
+            <label class="name" style="padding-top: 15px;padding-bottom: 15px; color: #999999; font-weight:400">
+                {{userName}}
+            </label>
+        </li>
+
+        <!--Show message if the user has logged out successfully
+        <li>{{message}}</li>
+        -->
+    </ul>
+</div>
+
+    <style type="text/css">
+        ul.usermenu {
+            top: 0px;
+            position: fixed;
+            z-index: 9999;
+            right: 10vw;
+        }
+
+            ul.usermenu a {
+                color: #999999;
+            }
+
+                ul.usermenu a:focus,
+                ul.usermenu a:hover {
+                    outline: none;
+                    color: white;
+                    background-color: transparent !important;
+                }
+
+        .name {
+            color: #428bca !important;
+        }
+    </style>

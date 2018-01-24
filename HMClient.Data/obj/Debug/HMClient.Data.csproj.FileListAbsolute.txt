@@ -1,0 +1,120 @@
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll.config
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\HMClient.Data.pdb
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\EntityFramework.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Owin.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\EntityFramework.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\bin\Debug\Interop.hMailServer.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\obj\Debug\Interop.hMailServer.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csproj.ResolveComReference.cache
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\obj\Debug\HMClient.Data.dll
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\obj\Debug\HMClient.Data.pdb
+C:\Users\lptic\Documents\Visual Studio 2013\Projects\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csprojResolveAssemblyReference.cache
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll.config
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.pdb
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Owin.dll
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.xml
+D:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Interop.hMailServer.dll
+D:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csprojResolveAssemblyReference.cache
+D:\GREENSOL\HMClient\HMClient.Data\obj\Debug\Interop.hMailServer.dll
+D:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csproj.ResolveComReference.cache
+D:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.dll
+D:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.pdb
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll.config
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\HMClient.Data.pdb
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Owin.dll
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Newtonsoft.Json.xml
+E:\GREENSOL\HMClient\HMClient.Data\bin\Debug\Interop.hMailServer.dll
+E:\GREENSOL\HMClient\HMClient.Data\obj\Debug\Interop.hMailServer.dll
+E:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csproj.ResolveComReference.cache
+E:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.dll
+E:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.pdb
+E:\GREENSOL\HMClient\HMClient.Data\obj\Debug\HMClient.Data.csprojResolveAssemblyReference.cache
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\HMClient.Data.dll.config
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\HMClient.Data.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\HMClient.Data.pdb
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\EntityFramework.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Newtonsoft.Json.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Owin.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\EntityFramework.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Newtonsoft.Json.xml
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\bin\Debug\Interop.hMailServer.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\obj\Debug\HMClient.Data.csprojResolveAssemblyReference.cache
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\obj\Debug\Interop.hMailServer.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\obj\Debug\HMClient.Data.csproj.ResolveComReference.cache
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\obj\Debug\HMClient.Data.dll
+E:\GREENSOL\HMClient with ANGULARJS\HMClient.Data\obj\Debug\HMClient.Data.pdb
