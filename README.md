@@ -17,6 +17,6 @@ Setting up hMailServer:
 Running the project:
 1. Run hMailServer Administrator and login with the password you register before
 2. Modify HMClient.Data\Concrete\HMS APIs\HMSApi.cs:
-   - Replace the value of adminPassword in HMSApi constructor with your hMailServer Admin's password
+   - Replace the value of adminPassword in the parameterless HMSApi constructor with your hMailServer Admin's password
    
 All done.
