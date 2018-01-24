@@ -38,7 +38,7 @@ namespace HMClient.Data.Concrete
         public static string GetDomainNameFromAddress(string address)
         {
             //return address.Substring(address.IndexOf('@') + 1);
-            return "mymail.com";
+            return "greenmail.com";
         }
 
         private static bool IsEmailAddress(string input)
@@ -81,7 +81,7 @@ namespace HMClient.Data.Concrete
                 Addresses = new List<string>()
             };
 
-            foreach (var a in GetEmailListFromClient(input))
+            foreach (var a in GetAddressListFromClient(input))
             {
                 if (!IsEmailAddress(a))
                 {
@@ -97,7 +97,8 @@ namespace HMClient.Data.Concrete
             return toModel;
         }
 
-        private static IEnumerable<string> GetEmailListFromClient(string input)
+        //Get email addresses when the user wants to send message to multiple accounts 
+        private static IEnumerable<string> GetAddressListFromClient(string input)
         {
             return input.Split(null).Where(s => s.Trim(null) != string.Empty);
         }
